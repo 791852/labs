@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StatTester()
+comment1.params=
+comment1.target=void\ loadArray()
+comment2.params=
+comment2.target=void\ printArray()
+comment3.params=
+comment3.target=int\ getSum()
+comment4.params=
+comment4.target=double\ getMean()
+comment5.params=
+comment5.target=double\ getMedian()
+comment6.params=
+comment6.target=int\ getMode()
+numComments=7
