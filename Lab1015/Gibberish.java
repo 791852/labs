@@ -1,6 +1,6 @@
 
 /**
- *Veronica Prattt
+ *Veronica Pratt
  */
 public class Gibberish
 {
@@ -14,8 +14,8 @@ public class Gibberish
         int currentSourceIndex = 0; //this creates a starting point for the method to scan through the source string
         String resultString = ""; //this creates a place for the result string
         while(currentSourceIndex<sourceString.length()){
-            int otherIndex = currentSourceIndex; //this creates a number equal to the current source index from the last while-loop round
-            currentSourceIndex = sourceString.indexOf("<", currentSourceIndex); //this changes the source index to the next value of < after where the last currentSourceIndex existed in the string
+            int otherIndex = currentSourceIndex; //this creates a number equal to the currentSourceIndex from the last while-loop round
+            currentSourceIndex = sourceString.indexOf("<", currentSourceIndex); //this updates the currentSourceIndex to the next value of < that is after where the last currentSourceIndex existed in the string
             if(currentSourceIndex < 0){ //this if checks to see if there are anymore of "<" in the code, if not, then it finishes the while loop and the method
                 resultString += sourceString.substring(otherIndex);
                 currentSourceIndex = sourceString.length();
