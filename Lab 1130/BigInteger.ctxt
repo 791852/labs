@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BigInteger
+comment0.text=\r\nVeronica\ Pratt\r\n11/30\r\n
+comment1.params=
+comment1.target=BigInteger()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BigInteger\r\n
+comment2.params=n
+comment2.target=void\ setListToNumber(int)
+comment3.params=n
+comment3.target=void\ addNumberToList(int)
+comment4.params=n1\ n2
+comment4.target=void\ addNumbers(java.util.ArrayList,\ java.util.ArrayList)
+numComments=5
